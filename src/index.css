@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+	
+body {
+    background-image: url('https://img.pikbest.com/backgrounds/20200528/retro-game-scene-pixel-art-8-bit-sci-fi-background--v_1772538jpg!bwr800');
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+    height: 100vh; /* Ajusta la altura al 100% de la ventana gráfica */
+    margin: 0; /* Elimina el margen predeterminado del cuerpo */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /* Ajusta el color del texto para que sea visible */
+    font-family: Arial, sans-serif; /* Ajusta la fuente del texto */
+}
